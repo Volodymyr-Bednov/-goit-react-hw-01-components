@@ -25,14 +25,15 @@ export const App = () => {
     //   React homework template
     // </div>
     <div className={css.container}>
-      <Profile
-        username={user.username}
-        tag={user.tag}
-        location={user.location}
-        avatar={user.avatar}
-        stats={user.stats}
-      />
-      {}
+      <div className={css.profileCard}>
+        <Profile
+          username={user.username}
+          tag={user.tag}
+          location={user.location}
+          avatar={user.avatar}
+          stats={user.stats}
+        />
+      </div>
       <Statistics title="Upload stats" stats={data} />
       <section>
         <FriendList friends={friends} />

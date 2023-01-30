@@ -1,0 +1,28 @@
+.profile {
+  width: 300px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.avatar {
+  width: 100px;
+  border-radius: 50%;
+  border: 1px solid #dfdfdf;
+}
+
+.stats {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  width: 100%;
+}
+
+.stats li {
+  display: flex;
+  flex-direction: column;
+}

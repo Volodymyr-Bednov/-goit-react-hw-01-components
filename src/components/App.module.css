@@ -5,3 +5,9 @@
   padding-left: 15px;
   padding-right: 15px;
 }
+
+.profileCard {
+  background-color: rgb(197, 197, 197);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
