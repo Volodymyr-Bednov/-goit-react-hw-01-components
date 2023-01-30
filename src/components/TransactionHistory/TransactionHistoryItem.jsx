@@ -1,4 +1,5 @@
 export const TransactionHistoryItem = ({ transactionItem }) => {
+  //console.log(transactionItem);
   const { amount, currency, type } = transactionItem;
   return (
     <tr>

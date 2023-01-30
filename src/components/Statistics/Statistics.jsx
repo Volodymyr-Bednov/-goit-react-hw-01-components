@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { StatisticsItem } from './StatisticsItem';
 
 export const Statistics = props => {
@@ -12,4 +13,15 @@ export const Statistics = props => {
       </ul>
     </section>
   );
+};
+
+Statistics.propTypes = {
+  props: PropTypes.exact({
+    title: PropTypes.string,
+    stats: PropTypes.exact({
+      percentage: PropTypes.number,
+      label: PropTypes.bool,
+      id: PropTypes.string,
+    }),
+  }),
 };
