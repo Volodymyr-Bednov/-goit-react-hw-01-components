@@ -1,3 +1,6 @@
+.friendWrap {
+  padding: 30px 0;
+}
 .friendList {
   width: 300px;
   margin: 0 auto;
@@ -20,10 +23,10 @@
 }
 
 .status {
-  width: 40px;
-  height: 40px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
-  background-color: rgb(41, 39, 146);
+  /* background-color: rgb(41, 39, 146); */
 }
 
 .status.isOffline {

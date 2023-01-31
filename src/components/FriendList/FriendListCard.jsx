@@ -14,12 +14,6 @@ export const FriendListCard = ({ friendItem }) => {
       >
         {isOnline}
       </span>
-      {/* {clsx(css[variant], {
-        [css.isOutlined]: outlined,
-        [css.isElevated]: elevated,
-      })} */}
-
-      {/* <span className={css['statusa']}>{isOnline}</span> */}
       <img className="avatar" src={avatar} alt="User avatar" width="48" />
       <p className="name">{name}</p>
     </li>

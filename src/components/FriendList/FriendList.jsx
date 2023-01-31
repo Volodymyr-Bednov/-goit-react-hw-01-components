@@ -4,11 +4,13 @@ import { FriendListCard } from './FriendListCard';
 
 export const FriendList = ({ friends }) => {
   return (
-    <ul className={css.friendList}>
-      {friends.map(item => (
-        <FriendListCard key={item.id} friendItem={item} />
-      ))}
-    </ul>
+    <div className={css.friendWrap}>
+      <ul className={css.friendList}>
+        {friends.map(item => (
+          <FriendListCard key={item.id} friendItem={item} />
+        ))}
+      </ul>
+    </div>
   );
 };
 
